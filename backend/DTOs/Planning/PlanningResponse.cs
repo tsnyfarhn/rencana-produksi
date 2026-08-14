@@ -1,0 +1,16 @@
+namespace Backend.DTOs.Planning;
+
+public class PlanningResponse
+{
+    public int PlanningId { get; set; }
+
+    public string RequestCode { get; set; } = string.Empty;
+
+    public string CandidateToken { get; set; } = string.Empty;
+
+    public DateTime CreatedAt { get; set; }
+
+    public string Status { get; set; } = string.Empty;
+
+    public List<PlanningSlotResponse> Slots { get; set; } = new();
+}
