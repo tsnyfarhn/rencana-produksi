@@ -1,0 +1,23 @@
+# .NET
+backend/[Bb]in/
+backend/[Oo]bj/
+backend/*.user
+backend/*.nuget.props
+backend/*.nuget.targets
+backend/packages/
+
+# .NET Environment
+backend/appsettings.Development.json
+backend/appsettings.json
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.idea/
+*.rider/
